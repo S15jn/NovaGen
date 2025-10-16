@@ -159,7 +159,7 @@ Requirements:
           <textarea
             onChange={(e) => setPrompt(e.target.value)}
             value={prompt}
-            className='w-full min-h-[200px] rounded-xl bg-[#09090B] mt-3 p-3 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-purple-500 resize-none'
+            className='w-full min-h-[200px] rounded-xl bg-[#09090B] mt-3 p-8 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500 resize-none'
             placeholder="Describe your component in detail and AI will generate it..."
           ></textarea>
 
@@ -167,10 +167,10 @@ Requirements:
             <p className='text-gray-400 text-sm'>Click on generate button to get your code</p>
             <button
               onClick={getResponse}
-              className="flex items-center p-3 rounded-lg border-0 bg-gradient-to-r from-purple-400 to-purple-600 px-5 gap-2 transition-all hover:opacity-80 hover:scale-105 active:scale-95"
-            >
-              {loading ? <ClipLoader color='white' size={18} /> : <BsStars />}
-              Generate
+              className="flex items-center p-10 rounded-lg border-0 bg-gradient-to-r from-blue-400 to-blue-600 px-10 gap-1 transition-all hover:opacity-80 hover:scale-105 active:scale-95"
+            >&nbsp;
+              {loading ? <ClipLoader color='white' size={20} /> : <BsStars />}
+              Generate &nbsp;
             </button>
           </div>
         </div>
@@ -180,7 +180,7 @@ Requirements:
           {
             !outputScreen ? (
               <div className="w-full h-full flex items-center flex-col justify-center">
-                <div className="p-5 w-[70px] flex items-center justify-center text-[30px] h-[70px] rounded-full bg-gradient-to-r from-purple-400 to-purple-600">
+                <div className="p-5 w-[70px] flex items-center justify-center text-[30px] h-[70px] rounded-full bg-gradient-to-r from-blue-400 to-blue-600">
                   <HiOutlineCode />
                 </div>
                 <p className='text-[16px] text-gray-400 mt-3'>Your component & code will appear here.</p>
@@ -191,13 +191,13 @@ Requirements:
                 <div className="bg-[#17171C] w-full h-[50px] flex items-center gap-3 px-3">
                   <button
                     onClick={() => setTab(1)}
-                    className={`w-1/2 py-2 rounded-lg transition-all ${tab === 1 ? "bg-purple-600 text-white" : "bg-zinc-800 text-gray-300"}`}
+                    className={`w-1/2 py-2 rounded-lg transition-all ${tab === 1 ? "bg-blue-600 text-white" : "bg-zinc-800 text-gray-300"}`}
                   >
                     Code
                   </button>
                   <button
                     onClick={() => setTab(2)}
-                    className={`w-1/2 py-2 rounded-lg transition-all ${tab === 2 ? "bg-purple-600 text-white" : "bg-zinc-800 text-gray-300"}`}
+                    className={`w-1/2 py-2 rounded-lg transition-all ${tab === 2 ? "bg-blue-600 text-white" : "bg-zinc-800 text-gray-300"}`}
                   >
                     Preview
                   </button>
@@ -241,7 +241,7 @@ Requirements:
           <div className="text-black w-full h-[60px] flex items-center justify-between px-5 bg-gray-100">
             <p className='font-bold'>Preview</p>
             <button onClick={() => setIsNewTabOpen(false)} className="w-10 h-10 rounded-xl border border-zinc-300 flex items-center justify-center hover:bg-gray-200">
-              <IoCloseSharp />
+              <IoCloseSharp /> 
             </button>
           </div>
           <iframe srcDoc={code} className="w-full h-[calc(100vh-60px)]"></iframe>

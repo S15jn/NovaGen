@@ -2,6 +2,7 @@ import React from 'react'
 import { FaUser } from 'react-icons/fa'
 import { HiSun } from 'react-icons/hi'
 import { RiSettings3Fill } from 'react-icons/ri'
+import Toggle from './Toogle'
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
          <h3 className='text-[25px] font-[700] sp-text'>GenUI</h3>
         </div>
         <div className="icons flex items-center gap-[15px]">
-          <div className="icon"><HiSun /></div>
+        
           <div className="icon"><FaUser /></div>
           <div className="icon"><RiSettings3Fill /></div>
         </div>
