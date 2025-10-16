@@ -1,17 +1,39 @@
-# React + Vite
+Yeh raha **GitHub project description** for your project **"Novagen"** — clear, professional, aur engaging style mein likha gaya 👇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### 🚀 **Novagen — MERN Stack + Google Gemini AI Integrated Code Generator**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Novagen** is an advanced **MERN stack** project integrated with **Google Gemini AI**, designed to instantly generate and preview front-end code based on user-selected language options.
 
-## React Compiler
+💡 Users can choose from multiple development stacks such as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **HTML + CSS**
+- **HTML + CSS + JavaScript**
+- **HTML + Tailwind + Bootstrap**
 
-## Expanding the ESLint configuration
+Once an option is selected, **Novagen** instantly provides ready-to-use code snippets powered by **Gemini AI**, which can be **previewed in real time** within the app itself.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# NovaGen" 
+### 🧠 **Key Features**
+
+- ⚙️ AI-based code generation using **Google Gemini**
+- 🖥️ Live preview of generated code
+- 🌐 Multiple tech stack options
+- 💾 Built using the **MERN stack** (MongoDB, Express, React, Node.js)
+- 🎨 Modern UI with Tailwind CSS and smooth animations
+
+### 🔍 **Use Case**
+
+Novagen is ideal for students, developers, and designers who want to **quickly prototype** front-end layouts or **learn by generating and visualizing** code in seconds.
+
+### 🧩 **Tech Stack**
+
+- **Frontend:** React, Tailwind CSS, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **AI Integration:** Google Gemini API
+
+---
+
+Would you like me to make a **short version** (for GitHub repo description box) and a **long version** (for README.md)?
+It’ll look more polished that way.
